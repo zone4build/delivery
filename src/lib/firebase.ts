@@ -44,9 +44,18 @@ export const requestNotificationPermission = async () => {
             return null;
         }
 
+        // Manually register service worker to avoid registration timeouts
+        const registration = await navigator.serviceWorker.register('/firebase-messaging-sw.js');
+        
+        // Wait for service worker to be ready/active
+        await navigator.serviceWorker.ready;
+
         // Check if permission is already granted
         if (Notification.permission === 'granted') {
-            const token = await getToken(messaging, { vapidKey: VAPID_KEY });
+            const token = await getToken(messaging, { 
+                vapidKey: VAPID_KEY,
+                serviceWorkerRegistration: registration
+            });
             if (process.env.NODE_ENV === 'development') {
                 console.log('FCM Token (already granted):', token?.substring(0, 20) + '...');
             }
@@ -56,7 +65,10 @@ export const requestNotificationPermission = async () => {
         // Request permission
         const permission = await Notification.requestPermission();
         if (permission === 'granted') {
-            const token = await getToken(messaging, { vapidKey: VAPID_KEY });
+            const token = await getToken(messaging, { 
+                vapidKey: VAPID_KEY,
+                serviceWorkerRegistration: registration
+            });
             if (process.env.NODE_ENV === 'development') {
                 console.log('FCM Token (newly granted):', token?.substring(0, 20) + '...');
             }
@@ -65,7 +77,20 @@ export const requestNotificationPermission = async () => {
             console.log('Notification permission denied');
             return null;
         }
-    } catch (error) {
+    } catch (error: any) {
+        // Suppress permission-blocked and AbortError to clean up the console
+        // AbortError commonly occurs in browsers that block push services (like Brave) or in Incognito mode
+        const errorString = error?.toString() || '';
+        if (
+            error?.code === 'messaging/permission-blocked' || 
+            error?.name === 'AbortError' || 
+            errorString.includes('AbortError') ||
+            errorString.includes('push service error') ||
+            error?.message?.includes('push service error')
+        ) {
+            return null;
+        }
+        
         console.error('Error getting FCM token:', error);
         return null;
     }

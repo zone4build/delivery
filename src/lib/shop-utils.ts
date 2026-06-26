@@ -121,9 +121,9 @@ export function toShopRoute(
   shopSlug: string | null | undefined,
   route: string
 ): string {
-  if (!shopSlug) return route;
+  // delivery-ui doesn't have shops, bypass slug prepending
   const clean = route === '/' ? '' : route.startsWith('/') ? route : `/${route}`;
-  return `/${shopSlug}${clean}`;
+  return clean || '/';
 }
 
 /**

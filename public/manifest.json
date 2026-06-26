@@ -1,6 +1,6 @@
 {
-  "name": "PickBazar E-Commerce",
-  "short_name": "PickBazar",
+  "name": "Zone4Build E-Commerce",
+  "short_name": "Zone4Build",
   "theme_color": "#ffffff",
   "background_color": "#004740",
   "display": "fullscreen",
@@ -21,5 +21,6 @@
       "purpose": "maskable any"
     }
   ],
-  "splash_pages": null
+  "splash_pages": null,
+  "gcm_sender_id": "103953800507"
 }

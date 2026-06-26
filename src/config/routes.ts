@@ -46,11 +46,7 @@ export function shopRoute(
   shopSlug: string | null | undefined,
   route: string
 ): string {
-  if (!shopSlug) return route;
-  // Avoid double slash when route is exactly '/'
+  // delivery-ui doesn't have shops, so we bypass slug prepending
   const clean = route === '/' ? '' : route.startsWith('/') ? route : `/${route}`;
-  if (clean === `/${shopSlug}` || clean.startsWith(`/${shopSlug}/`)) {
-    return clean || '/';
-  }
-  return `/${shopSlug}${clean}`;
+  return clean || '/';
 }

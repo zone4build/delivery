@@ -3,7 +3,7 @@ export const LOCALE_PREFIXES = new Set([
 ]);
 
 export const PLATFORM_SUBDOMAINS = new Set([
-  'store', 'admin', 'api', 'shop', 'dev-shop', 'localhost',
+  'store', 'admin', 'api', 'shop', 'dev-shop', 'localhost', 'delivery', 'dashboard',
   process.env.NEXT_PUBLIC_TENANT_ID || 'store2200'
 ]);
 
