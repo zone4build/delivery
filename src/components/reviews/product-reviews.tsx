@@ -39,7 +39,7 @@ const ProductReviews: React.FC<ProductReviewsProps & { product?: any }> = ({
   });
   useEffect(() => {
     setPage(1);
-  }, [restQuery]);
+  }, [JSON.stringify(restQuery)]);
   function onPagination(current: number) {
     setPage(current);
   }
