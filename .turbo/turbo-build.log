@@ -1,0 +1,1647 @@
+
+
+> @zone4build/delivery@1.0.0 build
+> export NODE_OPTIONS='-r ./pre-bundle.js --preserve-symlinks' && next build
+
+[1G[0K[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/bin/next] Requiring next/dist/compiled/commander -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/commander/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/bin/next] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/utils.js] Requiring next/dist/compiled/commander -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/commander/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/index.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/worker.js] Requiring next/dist/compiled/jest-worker -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/jest-worker/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/index.js] Requiring next/dist/compiled/devalue -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/devalue/devalue.umd.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/index.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js] Requiring next/dist/compiled/p-limit -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/p-limit/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/index.js] Requiring next/dist/compiled/nanoid/index.cjs -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/nanoid/index.cjs
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/index.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/try-to-parse-path.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/config.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/find-root.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/match-remote-pattern.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/config.js] Requiring next/dist/compiled/zod -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/zod/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/events/plugins.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/storage.js] Requiring next/dist/compiled/conf -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/conf/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/conf/index.js] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/conf/index.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/storage.js] Requiring next/dist/compiled/is-docker -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/is-docker/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/anonymous-meta.js] Requiring next/dist/compiled/is-docker -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/is-docker/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/anonymous-meta.js] Requiring next/dist/compiled/is-wsl -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/is-wsl/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/is-wsl/index.js] Requiring next/dist/compiled/is-docker -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/is-docker/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/post-payload.js] Requiring next/dist/compiled/async-retry -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-retry/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/storage.js] Requiring next/dist/compiled/@edge-runtime/ponyfill -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/ponyfill/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/ponyfill/index.js] Requiring next/dist/compiled/@edge-runtime/primitives -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/primitives/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/analysis/get-page-static-info.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/analysis/get-page-static-info.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/analysis/parse-module.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/swc/index.js] Requiring next/dist/compiled/@napi-rs/triples -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@napi-rs/triples/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/events/swc-load-failure.js] Requiring next/package.json -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/package.json
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/patch-incorrect-lockfile.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/patch-incorrect-lockfile.js] Requiring next/package.json -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/package.json
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/download-swc.js] Requiring next/dist/compiled/tar -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/tar/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/define-env-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/router/utils/path-match.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/router/utils/prepare-destination.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/spinner.js] Requiring next/dist/compiled/ora -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ora/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ora/index.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/recursive-copy.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/events/swc-plugins.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack-build/index.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/generate-interception-routes-rewrites.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/loadable -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/loadable-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/router-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/router-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/html-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/html-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/image-config-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/router/adapters.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/router/adapters.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/router/adapters.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/app-router-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/render.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/hooks-client-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/profiling-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-trace-entrypoints-plugin.js] Requiring next/dist/compiled/@vercel/nft -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/acorn -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/acorn/acorn.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/glob -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/glob/glob.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-trace-entrypoints-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack-config.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack-config.js] Requiring next/dist/compiled/@next/react-refresh-utils/dist/ReactRefreshWebpackPlugin -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/ReactRefreshWebpackPlugin.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack-config.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/config/blocks/base.js] Requiring next/dist/compiled/lodash.curry -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lodash.curry/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/config/blocks/css/index.js] Requiring next/dist/compiled/lodash.curry -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lodash.curry/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/config/helpers.js] Requiring next/dist/compiled/lodash.curry -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lodash.curry/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/config/blocks/css/loaders/getCssModuleLocalIdent.js] Requiring next/dist/compiled/loader-utils3 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/loader-utils3/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/find-config.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/find-config.js] Requiring next/dist/compiled/json5 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/json5/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/config/blocks/images/index.js] Requiring next/dist/compiled/lodash.curry -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lodash.curry/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/middleware-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/middleware-plugin.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/getModuleTrace.js] Requiring next/dist/compiled/loader-utils3 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/loader-utils3/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/build-manifest-plugin.js] Requiring next/dist/compiled/devalue -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/devalue/devalue.umd.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/build-manifest-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/jsconfig-paths-plugin.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/pages-manifest-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/react-loadable-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/server/middleware.js] Requiring next/dist/compiled/source-map08 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/source-map08/source-map.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/getRawSourceMap.js] Requiring next/dist/compiled/data-uri-to-buffer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/data-uri-to-buffer/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/launchEditor.js] Requiring next/dist/compiled/shell-quote -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/shell-quote/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/server/shared.js] Requiring next/dist/compiled/babel/code-frame -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/code-frame.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js] Requiring next/dist/compiled/stacktrace-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parseStack.js] Requiring next/dist/compiled/stacktrace-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/copy-file-plugin.js] Requiring next/dist/compiled/loader-utils3 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/loader-utils3/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/copy-file-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/flight-manifest-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/flight-client-entry-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/dev/on-demand-entry-handler.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/output/index.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/output/index.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/output/index.js] Requiring next/dist/compiled/unistore -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/unistore/unistore.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/format-webpack-messages.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/output/store.js] Requiring next/dist/compiled/unistore -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/unistore/unistore.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/output/store.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-types-plugin/index.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/app-build-manifest-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/subresource-integrity-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-font-manifest-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/next-trace-entrypoints-plugin.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/collect-build-traces.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/collect-build-traces.js] Requiring next/dist/compiled/picomatch -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/picomatch/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/collect-build-traces.js] Requiring next/dist/compiled/@vercel/nft -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@vercel/nft/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/dev/turbopack/manifest-loader.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/build-custom-route.js] Requiring next/dist/compiled/path-to-regexp -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/path-to-regexp/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/config-utils.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/bundle5.js] Requiring next/dist/compiled/loader-runner -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/bundle5.js] Requiring next/dist/compiled/webpack-sources3 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack-sources3/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/bundle5.js] Requiring next/dist/compiled/neo-async -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/neo-async/async.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/bundle5.js] Requiring next/dist/compiled/acorn -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/acorn/acorn.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/next.config.js] Requiring next-pwa -> Redirecting to /home/odile/workspace/node_modules/next-pwa/index.js
+>>> next.config.js loading...
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/next.config.js] Requiring next-pwa -> Redirecting to /home/odile/workspace/node_modules/next-pwa/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/config-schema.js] Requiring next/dist/compiled/zod -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/zod/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/events/version.js] Requiring next/dist/compiled/babel/core -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/core.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/bundle.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/bundle.js] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/bundle.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/babel/bundle.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/config-utils.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+  [1m[38;2;173;127;168m▲ Next.js 14.2.33[39m[22m
+
+ [37m[1m [22m[39m Skipping validation of types
+ [37m[1m [22m[39m Skipping linting
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/verify-typescript-setup.js] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/typescript/writeConfigurationDefaults.js] Requiring next/dist/compiled/comment-json -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/comment-json/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/typescript/writeConfigurationDefaults.js] Requiring next/dist/compiled/semver -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/semver/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/lib/helpers/install.js] Requiring next/dist/compiled/cross-spawn -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cross-spawn/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+ [37m[1m [22m[39m Creating an optimized production build ...
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/compiler.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/telemetry-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack-build/impl.js] Requiring next/dist/compiled/debug -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/debug/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/font-stylesheet-gathering-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/font-utils.js] Requiring next/dist/server/capsize-font-metrics.json -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/capsize-font-metrics.json
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/font-stylesheet-gathering-plugin.js] Requiring next/dist/compiled/cssnano-simple -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cssnano-simple/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/mini-css-extract-plugin.js] Requiring next/dist/compiled/mini-css-extract-plugin -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/mini-css-extract-plugin/cjs.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/mini-css-extract-plugin/index.js] Requiring next/dist/compiled/schema-utils3 -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/schema-utils3/index.js
+> [PWA] Compile server
+> [PWA] Compile server
+> [PWA] Compile client (static)
+> [PWA] Auto register service worker with: /home/odile/workspace/node_modules/next-pwa/register.js
+> [PWA] Service worker: /home/odile/workspace/ui/delivery/public/sw.js
+> [PWA]   url: /sw.js
+> [PWA]   scope: /
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/bundle5.js] Requiring next/dist/compiled/watchpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/watchpack/watchpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/terser-webpack-plugin/src/index.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/terser-webpack-plugin/src/index.js] Requiring next/dist/compiled/p-limit -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/p-limit/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/terser-webpack-plugin/src/index.js] Requiring next/dist/compiled/jest-worker -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/jest-worker/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/css-minimizer-plugin.js] Requiring next/dist/compiled/cssnano-simple -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cssnano-simple/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/css-minimizer-plugin.js] Requiring next/dist/compiled/postcss-scss -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/postcss-scss/scss-syntax.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/webpack/plugins/css-minimizer-plugin.js] Requiring next/dist/compiled/webpack/webpack -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/webpack/webpack.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cssnano-simple/index.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cssnano-simple/index.js] Requiring next/dist/compiled/postcss-value-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/postcss-value-parser/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/cssnano-simple/index.js] Requiring next/dist/compiled/postcss-plugin-stub-for-cssnano-simple -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/postcss-plugin-stub-for-cssnano-simple/index.js
+Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ [32m[1m✓[22m[39m Compiled successfully
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[2K[1G [37m[1m [22m[39m Collecting page data  [36m.[39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/profile.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[2K[1G [37m[1m [22m[39m Collecting page data  [36m.[39m[Pre-Bundle] [/home/odile/workspace/node_modules/overlayscrollbars-react/dist/overlayscrollbars-react.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Children/toArray.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/ref.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useMemo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/Collection.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/DomWrapper.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/change-password.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/addEventListener.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Children/toArray.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/orders/[tracking_number].js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/ref.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useMemo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/Collection.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/DomWrapper.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/addEventListener.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/CSSMotion.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/DomWrapper.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useEvent.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useLayoutEffect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useState.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useSyncState.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useStatus.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useDomMotionEvents.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useIsomorphicLayoutEffect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useStepQueue.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useNextFrame.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/CSSMotionList.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/index.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[1m[33mWarning: [39m[22m[33mYou have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`[39m
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/index.js] Requiring next/dist/compiled/find-up -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/find-up/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/dedupe-fetch.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[?25l [37m[1m [22m[39m Generating static pages (0/3)  [36m[    ][39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/gzip-size -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/gzip-size/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/text-table -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/text-table/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/react-is -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/react-is/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/strip-ansi -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/strip-ansi/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/browserslist -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/browserslist/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/require.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/utils.js] Requiring next/dist/compiled/async-sema -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/async-sema/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/sandbox/context.js] Requiring next/dist/compiled/edge-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/edge-runtime/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/overlayscrollbars-react/dist/overlayscrollbars-react.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Children/toArray.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/findDOMNode.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/ref.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useMemo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/Collection.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-resize-observer/lib/SingleObserver/DomWrapper.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/Dom/addEventListener.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/CSSMotion.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/DomWrapper.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useEvent.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useLayoutEffect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useState.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-util/lib/hooks/useSyncState.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useStatus.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useDomMotionEvents.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useIsomorphicLayoutEffect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useStepQueue.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/hooks/useNextFrame.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/rc-motion/lib/CSSMotionList.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/index.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/change-password.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/overlayscrollbars-react/dist/overlayscrollbars-react.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/app-render/dynamic-rendering.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/fetch-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/incremental-cache/file-system-cache.js] Requiring next/dist/compiled/lru-cache -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/lru-cache/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/telemetry/ci-info.js] Requiring next/dist/compiled/ci-info -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/ci-info/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/web/spec-extension/cookies.js] Requiring next/dist/compiled/@edge-runtime/cookies -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/@edge-runtime/cookies/index.js
+[2K[1G [37m[1m [22m[39m Generating static pages (0/3)  [36m[=   ][39mError: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { language: 'en' },
+    method: 'get',
+    url: '/settings',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/settings?language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/settings',
+      search: '?language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /settings?language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/settings?language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/settings?language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+Error: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { limit: 50, language: 'en' },
+    method: 'get',
+    url: '/types',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/types?limit=50&language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/types',
+      search: '?limit=50&language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /types?limit=50&language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/types?limit=50&language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/types?limit=50&language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+Error: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { language: 'en' },
+    method: 'get',
+    url: '/settings',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/settings?language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/settings',
+      search: '?language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /settings?language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/settings?language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/settings?language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+Error: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { limit: 50, language: 'en' },
+    method: 'get',
+    url: '/types',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/types?limit=50&language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/types',
+      search: '?limit=50&language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /types?limit=50&language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/types?limit=50&language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/types?limit=50&language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2K[1G [37m[1m [22m[39m Generating static pages (0/3)  [36m[==  ][39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/export/routes/pages.js] Requiring next/dist/compiled/amphtml-validator -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/amphtml-validator/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react/cjs/react-jsx-runtime.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_document.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/server/lib/trace/tracer -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/lib/trace/tracer.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring react-dom/server.browser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/server.browser.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/styled-jsx/dist/index/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-i18next -> Redirecting to /home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/index.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/Trans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/TransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/context.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTrans.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransWithoutContext.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/IcuTransUtils/renderTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/I18nextProvider.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/withSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/react-i18next/dist/commonjs/useSSR.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/appWithTranslation.js] Requiring react-i18next -> Redirecting to /home/odile/workspace/node_modules/react-i18next/dist/commonjs/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-i18next/dist/commonjs/utils.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-auth/react -> Redirecting to /home/odile/workspace/node_modules/next-auth/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-auth/react/index.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring react-dom -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react-dom/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/react-dom/cjs/react-dom.production.min.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/compiled/node-html-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/node-html-parser/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/compiled/node-html-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/node-html-parser/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/_app.js] Requiring next-seo -> Redirecting to /home/odile/workspace/node_modules/next-seo/lib/next-seo.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/next-seo/lib/next-seo.js] Requiring next/head -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/head.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react/jsx-runtime -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/jsx-runtime.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/side-effect.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/amp-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/amp-context.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/module.compiled.js] Requiring next/dist/compiled/next-server/pages.runtime.prod.js -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js
+[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/shared/lib/head.js] Requiring next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts/head-manager-context.js
+[2K[1G [37m[1m [22m[39m Generating static pages (2/3)  [36m[=== ][39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/.next/server/pages/profile.js] Requiring next-i18next/serverSideTranslations -> Redirecting to /home/odile/workspace/node_modules/next-i18next/serverSideTranslations.js
+[Pre-Bundle] [/home/odile/workspace/node_modules/overlayscrollbars-react/dist/overlayscrollbars-react.js] Requiring react -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/react/index.js
+Error: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { language: 'en' },
+    method: 'get',
+    url: '/settings',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/settings?language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/settings',
+      search: '?language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /settings?language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/settings?language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/settings?language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+Error: connect ECONNREFUSED ::1:80
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '::1',
+  port: 80,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'x-tenant-id': 'store2200',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer ',
+      'User-Agent': 'axios/0.26.1'
+    },
+    params: { limit: 50, language: 'en' },
+    method: 'get',
+    url: '/types',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Array],
+      timeout: undefined,
+      abort: undefined
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/types?limit=50&language=en',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '::1',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/types',
+      search: '?limit=50&language=en'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET /types?limit=50&language=en HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'x-tenant-id: store2200\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer \r\n' +
+        'User-Agent: axios/0.26.1\r\n' +
+        'Host: [::1]\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/types?limit=50&language=en',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '::1',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://[::1]/types?limit=50&language=en',
+    _timeout: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2K[1G [37m[1m [22m[39m Generating static pages (2/3)  [36m[ ===][39m[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js] Requiring next/dist/compiled/node-html-parser -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/node-html-parser/index.js
+[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (3/3)
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G[?25h[2K[1G[?25h[Pre-Bundle] [/home/odile/workspace/ui/delivery/node_modules/next/dist/build/collect-build-traces.js] Requiring next/dist/compiled/glob -> Redirecting to /home/odile/workspace/ui/delivery/node_modules/next/dist/compiled/glob/glob.js
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
+
+[4mRoute (pages)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+┌ ● /                                      40.6 kB         [37m[1m313 kB[22m[39m
+├   └ css/c6751c5fbd58d7a8.css             6.17 kB
+├   /_app                                  0 B             [37m[1m211 kB[22m[39m
+├ ƒ /404                                   183 B           [37m[1m211 kB[22m[39m
+├ ƒ /api/auth/[...nextauth]                0 B             [37m[1m211 kB[22m[39m
+├ ƒ /api/health                            0 B             [37m[1m211 kB[22m[39m
+├ ƒ /api/manifest                          0 B             [37m[1m211 kB[22m[39m
+├ ƒ /api/ready                             0 B             [37m[1m211 kB[22m[39m
+├ ƒ /api/robots                            0 B             [37m[1m211 kB[22m[39m
+├ ƒ /api/sitemap                           0 B             [37m[1m211 kB[22m[39m
+├ ● /change-password                       961 B           [37m[1m299 kB[22m[39m
+├ ƒ /orders/[tracking_number]              1.78 kB         [37m[1m271 kB[22m[39m
+├   └ css/8a8fafb41eb0ecec.css             1.13 kB
+└ ● /profile                               32.1 kB         [37m[1m330 kB[22m[39m
+    └ css/8392383b99ab14a9.css             24.9 kB
++ First Load JS shared by all              [37m[1m236 kB[22m[39m
+  ├ chunks/framework-945b357d4a851f4b.js   44.9 kB
+  ├ chunks/main-59ae5c937e893207.js        41.8 kB
+  ├ chunks/pages/_app-18449e819c56a94c.js  121 kB
+  ├ css/b5af72e2d87bbc3f.css               25.2 kB
+  └ other shared chunks (total)            3.57 kB
+
+ƒ Middleware                               [37m[1m25.2 kB[22m[39m
+
+●  (SSG)      prerendered as static HTML (uses [36mgetStaticProps[39m)
+ƒ  (Dynamic)  server-rendered on demand
+
+[?25h[1G[0K⠙[1G[0K
