@@ -16,12 +16,14 @@ const firebaseConfig = {
 // VAPID key from Firebase Console (Web Push Certificate)
 const VAPID_KEY = (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_FIREBASE_VAPID_KEY) || process.env.NEXT_PUBLIC_FIREBASE_VAPID_KEY;
 
-// Initialize Firebase
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
+// Initialize Firebase only if projectId is present
+const app = (typeof window !== 'undefined' && firebaseConfig.projectId) 
+    ? (!getApps().length ? initializeApp(firebaseConfig) : getApps()[0])
+    : null;
 
 // Get messaging instance (only in browser)
 export const getMessagingInstance = async () => {
-    if (typeof window === 'undefined') return null;
+    if (typeof window === 'undefined' || !app) return null;
 
     try {
         const supported = await isSupported();
