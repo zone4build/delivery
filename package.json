@@ -1,6 +1,6 @@
 {
   "name": "@zone4build/delivery",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "clean": "rimraf \"{.next,node_modules,.cache}\"",
