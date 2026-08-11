@@ -44,7 +44,7 @@ function LoginForm() {
   const [loginError, setLoginError] = useState<string | null>(null);
   const googleTokenClient = useRef<any>(null);
   
-  const identityTenantId = process.env.NEXT_PUBLIC_TENANT_ID!;
+  const identityTenantId = (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_TENANT_ID) || process.env.NEXT_PUBLIC_TENANT_ID!;
   const shopSlug = useShopSlug();
   const apiSlug = useShopApiSlug();
   const { shop } = useShop(apiSlug!);

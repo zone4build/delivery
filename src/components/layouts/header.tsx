@@ -31,8 +31,8 @@ const Header = ({ layout }: { layout?: string }) => {
   const [isAuthorize] = useAtom(authorizationAtom);
   const isHomePage = useIsHomePage();
   const isMultilangEnable =
-    process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true' &&
-    !!process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
+    String((typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_ENABLE_MULTI_LANG) || process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG) === 'true' &&
+    !!((typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_AVAILABLE_LANGUAGES) || process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES);
 
   const { shop } = useShopData();
   const { me } = useUser();

@@ -345,7 +345,7 @@ class Client {
     register: (input: RegisterUserInput) =>
       HttpClient.post<AuthResponse>(API_ENDPOINTS.USERS_REGISTER, input),
     forgotPassword: (input: ForgotPasswordUserInput) => {
-      const tenantId = process.env.NEXT_PUBLIC_TENANT_ID!;
+      const tenantId = (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_TENANT_ID) || process.env.NEXT_PUBLIC_TENANT_ID!;
       const origin = typeof window !== 'undefined' ? window.location.origin : '';
       return HttpClient.post<PasswordChangeResponse>(
         `${origin}/api/auth-proxy/${tenantId}/auth/forgot-password`,

@@ -9,7 +9,7 @@ export const CHECKOUT = 'pickbazar-checkout';
 export const SHOPS_LIMIT = 20;
 export const RTL_LANGUAGES: ReadonlyArray<string> = ['ar', 'he'];
 export const PRODUCT_INITIAL_FETCH_LIMIT = 30;
-export const DEFAULT_LANGUAGE = process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE ?? "en";
+export const DEFAULT_LANGUAGE = (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_DEFAULT_LANGUAGE) ?? process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE ?? "en";
 
 export function getDirection(language: string | undefined) {
   if (!language) return 'ltr';

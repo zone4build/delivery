@@ -6,7 +6,7 @@ const DefaultSeo = () => {
 
   // Get tenant name from environment variable, capitalize first letter
   const getTenantName = () => {
-    const tenantId = process.env.NEXT_PUBLIC_TENANT_ID || 'shop';
+    const tenantId = (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_TENANT_ID) || process.env.NEXT_PUBLIC_TENANT_ID || 'shop';
     return tenantId.charAt(0).toUpperCase() + tenantId.slice(1);
   };
 

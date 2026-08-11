@@ -68,7 +68,7 @@ const Seo = ({
   const shopWebsite = activeShop?.settings?.website;
   const shopSeo = activeShop?.settings?.seo;
 
-  const siteUrl = host || shopWebsite || process.env.NEXT_PUBLIC_SITE_URL || '';
+  const siteUrl = host || shopWebsite || (typeof window !== 'undefined' && (window as any).__ENV__?.NEXT_PUBLIC_SITE_URL) || process.env.NEXT_PUBLIC_SITE_URL || '';
   let absoluteUrl = canonical || shopSeo?.canonicalUrl;
 
   if (siteUrl && !absoluteUrl) {
