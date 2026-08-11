@@ -1,3 +1,4 @@
+import { getEnv } from '@/utils/env';
 import { AUTH_TOKEN_KEY } from '@/lib/constants';
 import type { SearchParamOptions } from '@/types';
 import axios from 'axios';
@@ -7,7 +8,7 @@ import { PLATFORM_SUBDOMAINS } from '@/lib/routing-constants';
 import Router from 'next/router';
 
 function resolveTenantId(): string {
-  return process.env.NEXT_PUBLIC_TENANT_ID || 'store2200';
+  return getEnv('NEXT_PUBLIC_TENANT_ID') || 'store2200';
 }
 
 const isServer = typeof window === 'undefined';
@@ -15,7 +16,7 @@ const isServer = typeof window === 'undefined';
 const httpClient = axios.create({
   baseURL: isServer && process.env.INTERNAL_REST_API_URL 
     ? process.env.INTERNAL_REST_API_URL 
-    : process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
+    : getEnv('NEXT_PUBLIC_REST_API_ENDPOINT'),
   timeout: 30000,
   headers: {
     'x-tenant-id': resolveTenantId(),

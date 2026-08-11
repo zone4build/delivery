@@ -1,12 +1,13 @@
 import axios from 'axios';
+import { getEnv } from '@/utils/env';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_NOTIFICATION_API_URL ||
+const API_BASE_URL = getEnv('NEXT_PUBLIC_NOTIFICATION_API_URL') ||
     'https://api.zone4build.com/notification';
 
 // Get shop ID dynamically from environment
 const getShopId = () => {
     // Use NEXT_PUBLIC_TENANT_ID which is already configured in .env
-    return process.env.NEXT_PUBLIC_TENANT_ID || 'store111'; // fallback
+    return getEnv('NEXT_PUBLIC_TENANT_ID') || 'store111'; // fallback
 };
 
 /**
